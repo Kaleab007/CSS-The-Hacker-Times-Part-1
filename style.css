@@ -1,47 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-nav>ul>li   {
-    display: inline;
-}
 
-.container {
-    width: 700px;
-    border-radius: 1em;
-    box-shadow: grey;
-    padding: 1em;
-}
-nav {
-    border-top: 1px solid green;
-    border-bottom: 1px solid green;
-    position: sticky;
-    top: 0%;
-    background-color: ivory;
-    display: inline-block;
-    padding: 1em;
+.date {
+    font-family: cursive;
 }
 
 body {
-    background-color: grey(228, 212, 212);
-    box-shadow: rgb(165, 223, 8);
-    color:#7e0808;
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 400;
-    padding-left: 1em;
-    padding-right: 1em ;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    background-color: #eee;
 }
 
+.newspaper-container {
+    background-color: white;
+    box-shadow: #ddd;
+    border-radius: 1%;
+    padding: 10px;
+    box-shadow: 1px 1px 3px gray;
+}
 
-element.style {
-    box-sizing: border-box;
-    position: initial;
-    width: 7.5em;
-    height: 7.5em;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: initial;
-  }
+h1 {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
 
+h2, h4 {
+    font-family: cursive;
+    color: red;
+    text-align: left;
+}
 
+img {
+    width: 100%;
+}
 
+main {
+    border-bottom: 2px solid #eee;
+}
+
+p {
+    font-family: cursive;
+    padding: 5px;
+}
+
+h5 {
+    font-family: cursive;
+    color: red;
+    text-align: center;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+    border-top: 2px solid rgb(139, 138, 138);
+    border-bottom: 2px solid rgb(139, 138, 138);
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    display: inline-block;
+    font-family: cursive;
+    font-size: 20px;
+    padding-right: 1em;
+}
+
+.more-articles section{
+    display: inline-block;
+    width: 45%;
+    padding: 1em;
+}
+
+.more-articles, .more-articles2{
+    border-bottom: 2px solid rgb(139, 138, 138);
+}
+
+.more-articles2 section{
+    display: inline-block;
+    width: 30%;
+    padding: 1em;
+}
+
+footer {
+    text-align: center;
+}
+
+footer li {
+    font-size: 12px;
+}
